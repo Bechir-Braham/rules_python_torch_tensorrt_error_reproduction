@@ -1,5 +1,2 @@
 build --enable_bzlmod
 run --enable_bzlmod
-
-build --python_path=/usr/bin/python3
-run --python_path=/usr/bin/python3
