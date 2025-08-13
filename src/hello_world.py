@@ -1,4 +1,5 @@
 import cowsay
+import torch_tensorrt
 
 def main():
     cowsay.cow("Hello, World!")

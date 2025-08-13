@@ -4,6 +4,7 @@ py_binary(
     name = "hello_world",
     srcs = ["hello_world.py"],
     deps = [
-        "@pypi//:cowsay"
+        "@pypi//cowsay",
+        "@pypi//torch_tensorrt"
     ],
 )
